@@ -1,0 +1,6 @@
+book_title = str(input("Book title?:"))
+author = str(input("Author?:"))
+year = int(input("Year?:"))
+genre = str(input("Genre?:"))
+pages = int(input("Pages?:"))
+print(f"Info about book:\nBook Title: {book_title} \nAuthor: {author} \nYear: {year} \nGenre: {genre} \nPages: {pages}")
